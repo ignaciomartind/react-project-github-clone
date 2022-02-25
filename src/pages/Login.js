@@ -71,7 +71,7 @@ export default function Login(props) {
             />
             <div className="login-label-password">
               <label htmlFor="password">Password</label>
-              <Link to="/reset-password">Forgot password?</Link>
+              <Link to="/decoration">Forgot password?</Link>
             </div>
             <input
               type="password"
@@ -88,7 +88,7 @@ export default function Login(props) {
           </form>
         </div>
         <div className="login-new-user">
-          <p>New to GitHub? </p> <Link to="/register">Create an account</Link>
+          <p>New to GitHub? </p> <Link to="/decoration">Create an account</Link>
         </div>
         <footer>
           <ul>

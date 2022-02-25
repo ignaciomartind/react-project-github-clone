@@ -10,7 +10,7 @@
 html{
     font-size: 10px;
     box-sizing: inherit;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     min-height: 100vh;
@@ -32,7 +32,7 @@ a:hover{
     padding: 7vh 0;
 }
 .btn-green{
-    padding: 1rem;
+    padding: 1rem!important;
     background-color: #2ca54d;
     color: white;
     border: none;

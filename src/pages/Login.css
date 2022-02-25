@@ -85,6 +85,26 @@ footer ul {
   list-style: none;
   justify-content: space-around;
 }
+/********/
+
+.login-error-container{
+  background-color: #ffece9;
+  border: 2px solid #ffd7d4;
+  margin-top: 2rem;
+  padding:2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.login-error-container button{
+  background-color: transparent;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+
+/*********/
 @media (max-wdith: 768px) {
   .login-main .btn-green {
     padding: 1.5rem;

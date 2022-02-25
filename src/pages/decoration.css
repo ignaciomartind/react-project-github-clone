@@ -1,0 +1,40 @@
+.decoration {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+  padding: 4rem 4rem;
+}
+.decoration p:nth-of-type(1) {
+  font-size: 3rem;
+}
+.decoration p:nth-of-type(2) {
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
+  color: rgb(63, 63, 63);
+}
+.decoration img {
+  width: 300px;
+  margin: 4rem auto;
+}
+.decoration img:hover {
+  animation-name: decoration;
+  animation-duration: 200ms;
+}
+@keyframes decoration {
+  from {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(-10deg);
+  }
+  66% {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
