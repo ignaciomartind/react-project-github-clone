@@ -36,7 +36,7 @@ export default function Login(props) {
     var password = e.target[1].value;
 
     const currentUser = users.filter(
-      (user) => user.username === username && user.password === password
+      (user) => user.username.toUpperCase() === username.toUpperCase() && user.password === password
     );
 
     if (currentUser.length === 0) {
