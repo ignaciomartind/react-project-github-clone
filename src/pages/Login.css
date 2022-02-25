@@ -39,15 +39,19 @@ body {
 .login-container .btn-green {
   margin-top: 2rem;
 }
+.login-container .btn-green:focus{
+    box-shadow: 0px 0px 5px #2ca54d;
+    background-color: #3cb460;
+}
 .login-container .login-input {
-  padding: 0.5rem 0.5rem;
-  border: 1px solid rgb(211, 209, 209);
+  padding: .7rem 0.5rem;
+  border: 1.5px solid rgb(211, 209, 209);
   border-radius: 5px;
-  outline: 4px solid transparent;
+  outline: none;
 }
 .login-container .login-input:focus {
   border: 1.5px solid #549ef1;
-  outline: 3px solid #549df183;
+  box-shadow: 0px 0px 5px #549df1;
 }
 .login-label-password {
   margin-top: 2rem;

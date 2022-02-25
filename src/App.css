@@ -33,7 +33,7 @@ a:hover{
 }
 .btn-green{
     padding: 1rem;
-    background-color: #2da450;
+    background-color: #2ca54d;
     color: white;
     border: none;
     outline: none;
@@ -44,10 +44,5 @@ a:hover{
 }
 .btn-green:hover{
     background-color: #3cb460;
-    box-shadow: 0px 0px 3px #3cb460;
-}
-@media (max-width: 320px){
-    .login-main{
-        padding: 0 2.4rem;
-    }
+    box-shadow: 0px 0px 5px #3cb460;
 }
